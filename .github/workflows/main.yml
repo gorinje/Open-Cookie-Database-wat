@@ -21,3 +21,6 @@ jobs:
     - name: Validate CSV
       run: |
         python .github/workflows/validate.py
+    - name: Generate knowledge base
+      run: |
+        python .github/workflows/convert_to_wat.py

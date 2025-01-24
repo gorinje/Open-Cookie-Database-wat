@@ -24,3 +24,8 @@ jobs:
     - name: Generate knowledge base
       run: |
         python .github/workflows/convert_to_wat.py
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        path: |
+          open-cookie-database-wat.json

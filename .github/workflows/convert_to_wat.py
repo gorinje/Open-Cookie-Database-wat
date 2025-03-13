@@ -44,10 +44,14 @@ def ocd_to_wat(input_csv, output_json):
                 
                 # Add source information
                 renamed_row["source"] = "Open Cookie Database"
+
                 
                 # Convert open database wildcards
                 if row.get("Wildcard match") == "1":
                     renamed_row["name"] = f"*{renamed_row.get('name', '').strip()}*"
+                    renamed_row["wildcard_match"] = 1
+                else:
+                    renamed_row["wildcard_match"] = 0
                 
                 filtered_row = {key: value for key, value in renamed_row.items() if key not in EXCLUDED_COLUMNS}
                 data.append(filtered_row)

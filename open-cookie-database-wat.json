@@ -3277,6 +3277,16 @@
         },
         {
             "category": "Marketing",
+            "name": "__Secure-ROLLOUT_TOKEN",
+            "domain": "youtube.com (3rd party)",
+            "comment": "\tRegisters a unique ID to keep statistics of what videos from YouTube the user has seen.",
+            "controller": "Google",
+            "policy": "https://business.safety.google/privacy/",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Marketing",
             "name": "__adm_ui",
             "domain": "admatic.com.tr (3rd party)",
             "comment": "Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.",
@@ -3494,6 +3504,36 @@
             "policy": "https://sonobi.com/privacy-policy/",
             "source": "Open Cookie Database",
             "wildcard_match": 0
+        },
+        {
+            "category": "Marketing",
+            "name": "__uin_mm",
+            "domain": "sonobi.com",
+            "comment": "These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign.",
+            "controller": "Sonobi",
+            "policy": "https://sonobi.com/privacy-policy/",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Marketing",
+            "name": "__uir_mm",
+            "domain": "sonobi.com",
+            "comment": "These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign.",
+            "controller": "Sonobi",
+            "policy": "https://sonobi.com/privacy-policy/",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Marketing",
+            "name": "*HAPLB8*",
+            "domain": "go.sonobi.com",
+            "comment": "Sonobi sets this cookie for advertising purposes.",
+            "controller": "Sonobi",
+            "policy": "https://sonobi.com/privacy-policy/",
+            "source": "Open Cookie Database",
+            "wildcard_match": 1
         },
         {
             "category": "Marketing",
@@ -6176,96 +6216,6 @@
             "wildcard_match": 1
         },
         {
-            "category": "Functional",
-            "name": "__atuvc",
-            "domain": ".addthis.com",
-            "comment": "This cookie is associated with the AddThis social sharing widget, it stores an updated page share count.",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "__atuvs",
-            "domain": ".addthis.com",
-            "comment": "This cookie is associated with the AddThis social sharing widget, which serves a similar purpose to other cookies set by the service.",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "ssc",
-            "domain": ".addthis.com",
-            "comment": "AddThis - Cookie related to an AddThis sharing button available on the website",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "uvc",
-            "domain": ".addthis.com",
-            "comment": "AddThis - Cookie related to an AddThis sharing button available on the website",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "loc",
-            "domain": ".addthis.com",
-            "comment": "AddThis - Cookie related to an AddThis sharing button available on the website",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "na_id",
-            "domain": ".addthis.com",
-            "comment": "AddThis - Cookie related to an AddThis sharing button available on the website",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "na_tc",
-            "domain": ".addthis.com",
-            "comment": "AddThis - Cookie related to an AddThis sharing button available on the website",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "ouid",
-            "domain": ".addthis.com",
-            "comment": "AddThis - Cookie related to an AddThis sharing button available on the website",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
-            "name": "na_sc_x",
-            "domain": ".dlx.addthis.com",
-            "comment": "Used by the social sharing platform AddThis to keep a record of parts of the site that has been visited in order to recommend other parts of the site.",
-            "controller": "AddThis",
-            "policy": "https://www.addthis.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
             "category": "Marketing",
             "name": "DG_HID",
             "domain": "funda.nl",
@@ -6594,26 +6544,6 @@
             "policy": "",
             "source": "Open Cookie Database",
             "wildcard_match": 1
-        },
-        {
-            "category": "Marketing",
-            "name": "__uin_mm",
-            "domain": "sonobi.com",
-            "comment": "These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign.",
-            "controller": "Sonobi",
-            "policy": "https://sonobi.com/privacy-policy/",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Marketing",
-            "name": "__uir_mm",
-            "domain": "sonobi.com",
-            "comment": "These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign.",
-            "controller": "Sonobi",
-            "policy": "https://sonobi.com/privacy-policy/",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
         },
         {
             "category": "Marketing",
@@ -8160,6 +8090,26 @@
             "name": "consent-policy",
             "domain": "*",
             "comment": "Used for cookie banner parameters",
+            "controller": "Wix.com",
+            "policy": "https://support.wix.com/article/cookies-and-your-wix-site",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Functional",
+            "name": "client-session-bind",
+            "domain": "*",
+            "comment": "Cookie for API protection",
+            "controller": "Wix.com",
+            "policy": "https://support.wix.com/article/cookies-and-your-wix-site",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Functional",
+            "name": "server-session-bind",
+            "domain": "*",
+            "comment": "Cookie for API protection",
             "controller": "Wix.com",
             "policy": "https://support.wix.com/article/cookies-and-your-wix-site",
             "source": "Open Cookie Database",
@@ -11696,6 +11646,16 @@
             "wildcard_match": 0
         },
         {
+            "category": "Marketing",
+            "name": "*ttcsid*",
+            "domain": "tiktok.com",
+            "comment": "The TikTok cookie ttcsid likely serves as a session identifier, helping to maintain user sessions and track interactions across the platform. Its purpose is probably to manage user authentication or personalize content based on activity, similar to other session-related cookies used by TikTok.",
+            "controller": "TikTok",
+            "policy": "https://www.tiktok.com/legal/page/eea/privacy-policy/en?lang=en",
+            "source": "Open Cookie Database",
+            "wildcard_match": 1
+        },
+        {
             "category": "Analytics",
             "name": "ahoy_visit",
             "domain": "*",
@@ -11794,16 +11754,6 @@
             "policy": "",
             "source": "Open Cookie Database",
             "wildcard_match": 0
-        },
-        {
-            "category": "Marketing",
-            "name": "*HAPLB8*",
-            "domain": "go.sonobi.com",
-            "comment": "Sonobi sets this cookie for advertising purposes.",
-            "controller": "Sonobi",
-            "policy": "https://sonobi.com/privacy-policy/",
-            "source": "Open Cookie Database",
-            "wildcard_match": 1
         },
         {
             "category": "Analytics",
@@ -18607,16 +18557,6 @@
         },
         {
             "category": "Analytics",
-            "name": "*_u*",
-            "domain": "events.newsroom.bi",
-            "comment": "This cookie is used to uniquely identify the same user on the different domains",
-            "controller": "Marfeel",
-            "policy": "https://community.marfeel.com/t/marfeel-com-privacy-policy/10383",
-            "source": "Open Cookie Database",
-            "wildcard_match": 1
-        },
-        {
-            "category": "Analytics",
             "name": "*_s*",
             "domain": "events.newsroom.bi",
             "comment": "This cookie is used to store for temporary session",
@@ -19607,19 +19547,9 @@
         },
         {
             "category": "Functional",
-            "name": "personalization_id",
-            "domain": "*",
-            "comment": "This cookie is used by the Wistia video player to remember where you are in a video so that if playback is interrupted (for example, by losing your internet connection) then you can get right back to where you left off.",
-            "controller": "Wistia",
-            "policy": "https://wistia.com/privacy",
-            "source": "Open Cookie Database",
-            "wildcard_match": 0
-        },
-        {
-            "category": "Functional",
             "name": "*wistia-video-progress-*",
             "domain": "*",
-            "comment": "This is a cookie required for the video player to work.",
+            "comment": "This cookie is used by the Wistia video player to remember where you are in a video so that if playback is interrupted (for example, by losing your internet connection) then you can get right back to where you left off.",
             "controller": "Wistia",
             "policy": "https://wistia.com/privacy",
             "source": "Open Cookie Database",
@@ -22022,6 +21952,36 @@
             "comment": "Used to store the user user intereset",
             "controller": "GumGum",
             "policy": "https://gumgum.com/terms-and-policies/cookies-policy",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Marketing",
+            "name": "_u",
+            "domain": ".bing.com (3rd party) or .microsoft.com (3rd party)",
+            "comment": "Tracks interaction on a website after having clicked on a Bing ad",
+            "controller": "Microsoft",
+            "policy": "https://account.microsoft.com/privacy",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Functional",
+            "name": "tf_respondent_cc",
+            "domain": ".typeform.com",
+            "comment": "This cookie is used to make sure forms on the website work properly.",
+            "controller": "Typeform",
+            "policy": "https://www.typeform.com",
+            "source": "Open Cookie Database",
+            "wildcard_match": 0
+        },
+        {
+            "category": "Marketing",
+            "name": "attribution_user_id",
+            "domain": ".typeform.com",
+            "comment": "This cookie helps us in attributing the conversion to the correct channel",
+            "controller": "Typeform",
+            "policy": "https://www.typeform.com",
             "source": "Open Cookie Database",
             "wildcard_match": 0
         }
